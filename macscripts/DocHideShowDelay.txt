@@ -1,0 +1,14 @@
+From Terminal bash prompt:
+
+
+
+To turn Dock Delay OFF
+
+$defaults write com.apple.Dock autohide-delay -float 0 && killall Dock
+
+
+To turn Dock Delay ON
+$defaults delete com.apple.Dock autohide-delay && killall Dock
+
+
+
